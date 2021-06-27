@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Menemukan Error</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.4.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>KOMNUM</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Materi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="integrasi numerik.html">Komputasi Numerik</a></li>
+              <li><a href="menemukan error.html">Menemukan Error</a></li>
+              <li><a href="persamaan diferensial.html">Persamaan Diferensial</a></li>
+              <li><a href="persamaan linier.html">Persamaan Linier</a></li>
+              <li><a href="persamaan non Linier.html">Persamaan Non Linier</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menemukan error.html">Menemukan Error</a></li>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Menemukan Error</a>
+              </h2>
+
+              <div class="entry-content">
+                <P>
+                  Error di dalam komputasi numerik sendiri adalah suatu nilai yang menyebabkan sebuah perhitungan suatu fungsi menjadi nilai yang tidak tepat / kurang akurat. Contoh sederhana suatu perhitungan yang memiliki error adalah sebagai berikut:
+                </p>
+                  <p>
+                    Misal kita mempunyai suatu nilai a = 13/8,
+                  </p>
+                  <p>
+                    Jika dibulatkan dengan pembulatan 2 decimal hasilnya b = 1,66
+                  </p>
+                  <p>
+                    Namun, Jika dibulatkan dengan pembulatan 5 decimal hasilnya c = 1,625
+                  </p>
+                  <p>
+                    Kedua nilai b dan c memiliki nilai selisih, jika nilai tersebut dikurangkan dengan formula:
+                  </p>
+                  <p>
+                    x = b – c
+                  </p>
+                <p>
+                Maka, 1,66 – 1,625 = 0,035. Nilai 0,035 bisa disebut dengan nilai error / galat.
+              </P>
+
+                <h3>Beberapa error / kesalahan yang dapat terjadi di dalam komputasi numerik adalah sebagai berikut:</h3>
+                <p>
+                  - Human Error
+                </p>
+                <p>
+                  Karena manusia tidak akan pernah luput dari kesalahan, maka kesalahan yang mungkin saja dapat terjadi adalah kesalahan yang dilakukan oleh manusia itu sendiri. Kesalahan yang paling umum dilakukan oleh manusia dalam komputasi numerik adalah kesalarahan aritmatika dan kesalahan program computer yang telah dibuat.
+                </p>
+                <p>
+                  - Round off errors
+                </p>
+                <p>
+                  Kesalahan Round off errors atau biasa disebut juga kesalahan pembulatan, kesalahan ini bisa terjadi karena computer memiliki keterbatasan untuk mepresentasikan suatu angka. Kesalahan ini biasanya terjadi dalam perhitungan, dalam aturan pembulatan, bisanya ditetapkan bahwa:
+                </p>
+                <p>
+                  a. Ketika digit terakhir didalam suatu angka belakang koma kurang dari 5, maka tidak akan dilakukan pembulatan
+                </p>
+                <p>
+                  b. Sedangkan untuk digit terakhir di dalam suatu angka belakang koma lebih dari sama dengan 5, maka akan dilakukan pembulatan dengan penambahan sebanyak angka 1.
+                </p>
+                <p>
+                  Untuk contohnya dapat dilihat pada penjelasan pada ilustrasi sebelumnya.
+                </p>
+                <p>
+                  - Truncations errors
+                </p>
+                <p>
+                  Kesalahan truncations atau biasa disebut kesalahan pemotongan, kesalahan ini terjadi karena ada perbedaan anatara nilai asli dan nilai pemotongan. Cara efektif untuk memahami kesalahan pemotongan adalah dengan menggunakan metode Aproksimasi Deret Taylor. Pendekatan deret Taylor dimulai dengan satu suku orde nol dan sebagai tambahan suku ditambahkan ke deret, nilai perkiraan di mulai dengan mendekati nilai sebenarnya. Namun, jumlah suku yang tidak terbatas akan diperlukan untuk mencapai nilai sebenarnya ini.
+                </p>
+                <p>
+                  Sebagai contoh, berikut merupakan rumus dengan menggunakan deret taylor:
+                </p>
+                <img src="assets/img/14.png"/>
+                <p>
+                  Karena batas akhirnya yang memiliki nilai tak hingga, maka dilakukan pemotongan suku agar peritungan yang dilakukan menjadi lebih sederhana.
+                </p>
+                <p>
+                  Karena batas akhirnya yang memiliki nilai tak hingga, maka dilakukan pemotongan suku agar peritungan yang dilakukan menjadi lebih sederhana.
+                </p>
+
+
+              </div>
+
+            </article><!-- End blog entry -->
+
+            </div><!-- End blog comments -->
+
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
